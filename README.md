@@ -17,7 +17,7 @@ PoPutiBot 🚊
  Database Cleanup: Automatic weekly cleanup of old records using the scheduler.
 
 PoPutiBot/
-├── bot/
+'''├── bot/'''
 │   ├── __init__.py
 │   ├── database.py       # Database management
 │   ├── handlers.py       # Core logic for user interactions
