@@ -18,7 +18,7 @@ PoPutiBot 🚊
 
 PoPutiBot/
 ```├── bot/```
-│   ├── __init__.py
+```│   ├── __init__.py```
 │   ├── database.py       # Database management
 │   ├── handlers.py       # Core logic for user interactions
 │   ├── scheduler.py      # Scheduler for automatic database cleanup
