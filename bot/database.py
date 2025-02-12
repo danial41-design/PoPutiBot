@@ -18,13 +18,13 @@ class Database:
         cursor.execute("""
         CREATE TABLE IF NOT EXISTS deliveries (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            action TEXT, -- 'передать' или 'отвезти'
+            action TEXT, 
             item TEXT,
             city_from TEXT,
             city_to TEXT,
             user_id INTEGER,
             username TEXT,
-            is_notified INTEGER DEFAULT 0 -- 0 означает, что уведомление не отправлено
+            is_notified INTEGER DEFAULT 0 
         )
         """)
         conn.commit()
